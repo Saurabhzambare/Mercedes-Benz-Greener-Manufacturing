@@ -1,0 +1,14 @@
+# IDE settings
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Local environments and secrets
+.env
+.venv/
+venv/
