@@ -126,6 +126,10 @@ This repository originated as an earlier learning project and retains that explo
 
 These limitations provide clear opportunities to modernize the work without overstating its present capabilities.
 
+## Validated baseline experiment
+
+A separate [categorical baseline experiment](docs/BASELINE_EVALUATION.md) compares a mean predictor and ridge regression with five-fold cross-validation. The original notebook remains the exploratory analysis.
+
 ## Future Improvements
 
 Potential next steps include:
@@ -134,7 +138,7 @@ Potential next steps include:
 - build a reproducible preprocessing and modeling pipeline;
 - identify and remove zero-variance features;
 - evaluate suitable dimensionality-reduction techniques;
-- introduce a train/validation split or cross-validation;
+- extend the cross-validated experiment to the anonymized binary features and additional models;
 - evaluate regression models with appropriate metrics such as R²;
 - compare additional regression algorithms;
 - generate test-set predictions and a correctly formatted submission; and
